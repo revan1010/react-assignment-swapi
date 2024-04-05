@@ -1,0 +1,38 @@
+.container {
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.characters-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+ul {
+  padding: 0;
+}
+.app-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.app-buttons button {
+  font-size: 15px;
+  padding: 5px;
+  background-color: aliceblue;
+  border: 4px solid #555555;
+  cursor: pointer;
+}

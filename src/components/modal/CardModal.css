@@ -1,0 +1,97 @@
+.overlay {
+  background-color: #1b1b1bad;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure modal is on top of other content */
+}
+
+.modalContainer {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: #000000c7;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modalContainer div {
+  color: white;
+}
+
+.head-part {
+  display: flex;
+  justify-content: center;
+}
+.head-part h2 {
+  margin: 0;
+  font-size: 23px;
+  font-weight: 500;
+  border: 1px solid whitesmoke;
+  padding: 2px;
+  border-radius: 5px;
+}
+.height-mass {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin-top: 15px;
+  border: 1px dashed lightgray;
+}
+.height-mass p {
+  margin: 2px;
+  padding: 3px;
+  border: 1px dashed red;
+}
+.homeland {
+  display: flex;
+
+  flex-direction: column;
+  padding: 5px;
+  border: 1px dashed lightgray;
+  gap: 6px;
+  margin-top: 15px;
+}
+.head-homeland {
+  display: flex;
+  justify-content: center;
+}
+.homeland h4 {
+  margin: 0;
+  text-decoration: underline;
+}
+.home-details {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin-top: 2px;
+}
+.home-details p {
+  margin: 2px;
+  padding: 3px;
+  border: 1px dashed rgb(0, 255, 255);
+}
+.button-part {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.button-part button {
+  background-color: rgba(61, 69, 77, 0.656);
+  color: white;
+  font-size: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 6px;
+}
